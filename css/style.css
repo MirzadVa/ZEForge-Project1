@@ -317,9 +317,10 @@
 	width: 400px;
 	background-color: #0652DD;
 	border: none;
+	color: #fff;
 }
 ::placeholder{
-	color: #fff;
+	color: #ffffffa1;
 
 }
 
