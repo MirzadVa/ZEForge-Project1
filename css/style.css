@@ -91,7 +91,7 @@
 		/*------APP-IMAGE----*/
 
 .app-image{
-	height: 500px;
+	height: 700px;
 	width: 560px;
 }
 /*-------------------------------APPLE-SECTION--------------------------*/
@@ -153,7 +153,16 @@
 }
 /*-------------------------------ABOUT-APP------------------------------*/
 .container-3{
-	background-image: linear-gradient(to right, #0652DD, #3498db);	
+	background-image: linear-gradient(to right, #0652DD, #3498db);
+	position: relative;	
+}
+.container-3 img{
+	width: 580px;
+	height: 518px;
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	border-radius: 20px;
 }
 .column2{
 	color:#fff;
