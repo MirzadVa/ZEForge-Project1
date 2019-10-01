@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+/*-------------------------------HEADER----------------------------*/
+.head-container{
+	background-image: linear-gradient(to right, #0652DD, #3498db);
+	width: 100%;
+	height: 100vh;
+}
+.navigation{
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	height: 100px;
+	align-items: center;
+}
+.navigation li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 20px;
+}
+.navigation a{
+	text-decoration: none;
+	color: #fff;
+	padding:10px 20px;
+}
+#applogo{
+	background: #fff;
+	color: #0652DD;
+}
+.button{
+	width: 100px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	background-color: #3498db;
+	color: #fff;
+	cursor: pointer;
+}
+
+.head-content{
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	justify-content: center;
+	align-items: center;	
+}
+.head-text{
+	width: 400px;
+	margin-left: 25%;
+	justify-content: center;
+	align-items: center;
+}
+.head-text h1{
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 3em;
+}
+.head-text p{
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+.button{
+	width: 150px;
+}
+.blue{
+	background-color: #0652DD;
+}
+.white{
+	background-color: #fff;
+	color: #0652DD;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.picture{
+	height: 500px;
+	width: 560px;
+}
+/*-------------------------------APPLE---------------------------*/
+.container-2{
+	background-color: #fff;
+	width: 100%;
+	
+}
+.column{
+	width: 1000px;
+	margin: auto;
+}
+.buttons{
+	margin-top: 20px;
+}
+.platform{
+	background-color: #fff;
+	color: #0652DD;
+	border: 1px solid #0652DD;
+}
+.devices{
+	background-color: #0652DD;
+	color: #fff;
+}
+.brands{
+	display: flex;
+}
+.type{
+	flex-grow: 1;
+	margin-top: 50px;
+}
+.phone{
+	width: 50px;
+	height: 50px;
+}
+.nokia{
+	width: 100px;
+}
+.htc{
+	height: 65px;
+	width: 60px;
+}
+.text-holder{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	color: #576574;
+}
+.text-holder h2{
+	color: #0652DD;
+}
+/*-------------------------------BODY------------------------------*/
+.container-3{
+	background-image: linear-gradient(to right, #0652DD, #3498db);	
+}
+.column2{
+	color:#fff;
+	height: 600px;
+}
+.nav{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+.nav li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 30px;
+	width: 110px;
+	cursor: pointer;
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+}
+a{
+	
+}
+#our-app{
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+.about-app{
+	margin-top: 7%;
+	margin-bottom: 10%;
+	width: 500px;
+}
+.about-app h2{
+	font-size: 38px;
+}
+.get-app{
+	background-color: #fff;
+	color: #0652DD;
+	font-size: 15px;
+}
+/*-------------------------------FOOTER----------------------------*/
+.h2{
+	margin-top: 2%;
+	height: 200px;
+}
+.h2 h2{
+	font-size: 40px;
+	font-weight: bolder;
+	color: #0652DD;
+	width: 600px;
+}
+.btn1{
+	background-color: #fff;
+	border:2px solid #0652DD;
+	color: #0652DD;
+}
+.bottom-nav{
+	
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-nav li{
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	padding: 0px 30px;
+}
+.bottom-nav a{
+	text-decoration: none;
+	color: #576574;
+	
+}
+.btn2{
+	width: 90px;
+	border-radius: 20px;
+}
+#news{
+	background: #fff;
+	
+	border: 1px solid #0652DD;
+	padding: 10px 20px;
+}
+#news-a{
+	color: #0652DD;
+}
+.humble{
+	margin-top: 5%;
+	margin-bottom: 10%;
+	color: #576574;
+}
+.humble h2{
+	color: #0652DD;
+	font-size: 30px;
+}
+/*--------------------MAP-CONTACT-------------*/
+.map-contact{
+	height: 700px;
+	background-image: linear-gradient(to right, #0652DD, #3498db);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: #fff;
+}
+.contact-form{
+	margin-left: 20px;
+}
+.contact-form h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+
+}
+.contact-form p{
+	margin-bottom: 20px;
+
+}
+
+.email-contact{
+	width: 200px;
+	margin-bottom: 20px;
+	background-color: #0652DD;
+	cursor: pointer;
+}
+.form{
+	height: 30px;
+	width: 400px;
+	margin-bottom: 20px;
+	background-color: #0652DD;
+	border: none;
+	color: #fff;
+}
+.message{
+	height: 200px;
+	width: 400px;
+	background-color: #0652DD;
+	border: none;
+}
+::placeholder{
+	color: #fff;
+
+}
+.gmap{
+	width: 100%;
+	height: 700px;
+	border: none;
+}
+.send{
+	width: 200px;
+	background-color: #0652DD;
+}
