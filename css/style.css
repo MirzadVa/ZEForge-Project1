@@ -157,7 +157,7 @@
 	position: relative;	
 }
 .container-3 img{
-	width: 580px;
+	width: 600px;
 	height: 518px;
 	position: absolute;
 	bottom: 0px;
@@ -290,7 +290,7 @@
 .contact-form h2{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-size: 30px;
+	font-size: 40px;
 
 }
 .contact-form p{
@@ -321,6 +321,7 @@
 }
 ::placeholder{
 	color: #ffffffa1;
+	padding-left: 10px;
 
 }
 
